@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sign up | iintoo</title>
+
+  <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body class="page page--sign-up">
+  <header class="header">
+    <a href="#" class="header__logo-link">
+      <img src="images/logo.svg" alt="iintoo's logo" class="header__logo" width="137" height="30">
+    </a>
+  </header>
+  <main class="main">
+    <h1 class="main__title visually-hidden">Create an iintoo accaunt</h1>
+    <form action="https://echo.htmlacademy.ru/" class="main__sign-up-form sign-up-form">
+      <header class="sign-up-form__header">
+        <p class="sign-up-form__slogan">Get iintoo it today</p>
+        <p class="sign-up-form__note">There is no charge or obligation upon registration.</p>
+      </header>
+      <section class="sign-up-form__section">
+        <h2 class="sign-up-form__section-title visually-hidden">Register with social networking service</h2>
+        <ul class="sign-up-form__social-reg-list social-reg-list">
+          <li class="social-reg-list__item">
+            <a href="#" class="social-reg-list__link social-reg-list__link--fb">Register with Facebook</a>
+          </li>
+          <li class="social-reg-list__item">
+            <a href="#" class="social-reg-list__link social-reg-list__link--li">Register with LinkedIn</a>
+          </li>
+        </ul>
+      </section>
+      <section class="sign-up-form__section">
+        <h2 class="sign-up-form__section-title visually-hidden">Register with email and phone</h2>
+        <div class="sign-up-form__group sign-up-form__group--contacts">
+          <h3 class="sign-up-form__group-title visually-hidden">Your email and phone number</h3>
+          <p class="sign-up-form__group-note visually-hidden">Enter your email and phone</p>
+          <label class="sign-up-form__field field">
+            <span class="field__label-text">Email</span>
+            <input type="email" class="field__input" name="email" placeholder="gus.goodwin@gmail.com"
+              autocomplete="email" required>
+          </label>
+          <label class="sign-up-form__field field">
+            <span class="field__label-text">Phone</span>
+            <input type="phone" class="field__input" name="phone" placeholder="+7 993 756-00-98" autocomplete="tel"
+              required>
+          </label>
+        </div>
+        <div class="sign-up-form__group sign-up-form__group--type">
+          <h3 class="sign-up-form__group-title">What type of investor are you?</h3>
+          <p class="sign-up-form__group-note">Select the type of investor you are below.</p>
+          <label class="sign-up-form__radio radio">
+            <input type="radio" class="radio__input visually-hidden" name="type" value="individual" checked>
+            <span class="radio__label-text">Individual</span>
+            <span class="radio__info-icon" tabindex="0"></span>
+            <p class="radio__description">I am natural person investing on my own behalf as a sole
+              owner, joint tenant, or tenant in common.</p>
+          </label>
+          <label class="sign-up-form__radio radio">
+            <input type="radio" class="radio__input visually-hidden" name="type" value="business">
+            <span class="radio__label-text">Business</span>
+            <span class="radio__info-icon" tabindex="0"></span>
+            <p class="radio__description">Some description text for this item</p>
+          </label>
+          <label class="sign-up-form__radio radio">
+            <input type="radio" class="radio__input visually-hidden" name="type" value="ira">
+            <span class="radio__label-text">IRA</span>
+            <span class="radio__info-icon" tabindex="0"></span>
+            <p class="radio__description">Some description text for this item</p>
+          </label>
+          <label class="sign-up-form__radio radio">
+            <input type="radio" class="radio__input visually-hidden" name="type" value="trust">
+            <span class="radio__label-text">Trust</span>
+            <span class="radio__info-icon radio__info-icon" tabindex="0"></span>
+            <p class="radio__description">Some description text for this item</p>
+          </label>
+        </div>
+      </section>
+      <footer class="sign-up-form__footer">
+        <label class="sign-up-form__terms-checkbox checkbox">
+          <input type="checkbox" class="checkbox__input checkbox__input--opacity visually-hidden" name="terms">
+          <span class="checkbox__label-text checkbox__label-text--opacity">
+            I agree to the terms and receiving notifications from iintoo
+            <a href="#" class="link">View full terms</a>
+          </span>
+        </label>
+        <button class="sign-up-form__btn btn">Create Account</button>
+      </footer>
+    </form>
+  </main>
+  <footer class="footer"></footer>
+</body>
+
+</html>

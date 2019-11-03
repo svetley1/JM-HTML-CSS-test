@@ -1,0 +1,17 @@
+.page {
+  color: $main-text;
+  font-family: Barlow, Tahoma, sans-serif;
+  font-weight: 400;
+
+  &--sign-up {
+    display: flex;
+  }
+}
+
+@media (max-width: 740px) {
+  .page {
+    &--sign-up {
+      flex-direction: column;
+    }
+  }
+}

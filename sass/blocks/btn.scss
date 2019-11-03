@@ -1,0 +1,16 @@
+.btn {
+  @include btn-reset;
+  border-radius: 3px;
+  background-color: $main-accent;
+  color: #fff;
+  padding: 10px 15px;
+  font-family: Barlow, Tahoma, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+
+  &:hover,
+  &:focus {
+    background-color: $main-accent-dark;
+  }
+}

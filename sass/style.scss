@@ -1,0 +1,22 @@
+// Libs import
+@import "../node_modules/normalize.css/normalize";
+
+
+// Main import
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "base";
+
+// Blocks import
+
+@import "blocks/page";
+
+@import "blocks/social-reg-list";
+@import "blocks/btn";
+@import "blocks/field";
+@import "blocks/sign-up-form";
+@import "blocks/header";
+@import "blocks/radio";
+@import "blocks/checkbox";
+@import "blocks/link";

@@ -1,0 +1,8 @@
+.link {
+  color: $main-accent;
+
+  &:hover,
+  &:focus {
+    color: $main-accent-dark;
+  }
+}

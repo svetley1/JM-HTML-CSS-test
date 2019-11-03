@@ -1,0 +1,45 @@
+.field {
+  position: relative;
+  display: block;
+}
+
+.field__label-text {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 10px;
+  line-height: 30px;
+  height: 25px;
+  width: 100%;
+  font-size: 15px;
+}
+
+.field__input {
+  padding: 15px 10px 0 10px;
+  height: 60px;
+  line-height: 38px;
+  min-width: 5px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  display: block;
+  width: 100%;
+  border: 1px solid $gray;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+
+  &:hover {
+    border-color: gray;
+  }
+
+  &:focus {
+    border-left: 2px solid $main-accent;
+    padding-left: 9px;
+  }
+
+  &:valid {
+    border-left: 2px solid rgb(19, 148, 19);
+    padding-left: 9px;
+  }
+}
